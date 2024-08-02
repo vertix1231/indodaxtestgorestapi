@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-02T05:43:51 ICT" name="Default suite" finished-at="2024-08-02T05:43:58 ICT" duration-ms="7275">
+  <suite started-at="2024-08-02T08:05:10 ICT" name="Default suite" finished-at="2024-08-02T08:05:19 ICT" duration-ms="8750">
     <groups>
     </groups>
-    <test started-at="2024-08-02T05:43:51 ICT" name="Default test" finished-at="2024-08-02T05:43:58 ICT" duration-ms="7275">
-      <class name="com.test.kerja.sqa.api.indodax.UserGet">
-        <test-method is-config="true" signature="setupget()[pri:0, instance:com.test.kerja.sqa.api.indodax.UserGet@5ace1ed4]" started-at="2024-08-02T05:43:51 ICT" name="setupget" finished-at="2024-08-02T05:43:51 ICT" duration-ms="9" status="PASS">
+    <test started-at="2024-08-02T08:05:10 ICT" name="Default test" finished-at="2024-08-02T08:05:19 ICT" duration-ms="8750">
+      <class name="com.test.kerja.sqa.api.indodax.EndtoEndGetPost">
+        <test-method is-config="true" signature="setupget()[pri:0, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:10 ICT" name="setupget" finished-at="2024-08-02T08:05:10 ICT" duration-ms="12" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupget -->
-        <test-method signature="getalluserbyid()[pri:0, instance:com.test.kerja.sqa.api.indodax.UserGet@5ace1ed4]" started-at="2024-08-02T05:43:51 ICT" name="getalluserbyid" finished-at="2024-08-02T05:43:55 ICT" duration-ms="3450" status="PASS">
+        <test-method signature="createuser()[pri:0, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:10 ICT" name="createuser" finished-at="2024-08-02T08:05:16 ICT" duration-ms="5802" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuser -->
+        <test-method signature="createuserpost()[pri:1, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:16 ICT" name="createuserpost" finished-at="2024-08-02T08:05:17 ICT" duration-ms="506" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserpost -->
+        <test-method signature="createtodo()[pri:2, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:17 ICT" name="createtodo" finished-at="2024-08-02T08:05:17 ICT" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createtodo -->
+        <test-method signature="getalluserbyid()[pri:3, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:17 ICT" name="getalluserbyid" finished-at="2024-08-02T08:05:18 ICT" duration-ms="391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getalluserbyid -->
-        <test-method signature="getcomment()[pri:0, instance:com.test.kerja.sqa.api.indodax.UserGet@5ace1ed4]" started-at="2024-08-02T05:43:55 ICT" name="getcomment" finished-at="2024-08-02T05:43:56 ICT" duration-ms="1205" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getcomment -->
-        <test-method signature="getpostcontent()[pri:0, instance:com.test.kerja.sqa.api.indodax.UserGet@5ace1ed4]" started-at="2024-08-02T05:43:56 ICT" name="getpostcontent" finished-at="2024-08-02T05:43:57 ICT" duration-ms="1464" status="PASS">
+        <test-method signature="getpostcontent()[pri:4, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:18 ICT" name="getpostcontent" finished-at="2024-08-02T08:05:18 ICT" duration-ms="596" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getpostcontent -->
-        <test-method signature="gettodo()[pri:0, instance:com.test.kerja.sqa.api.indodax.UserGet@5ace1ed4]" started-at="2024-08-02T05:43:57 ICT" name="gettodo" finished-at="2024-08-02T05:43:58 ICT" duration-ms="1095" status="PASS">
+        <test-method signature="getcomment()[pri:5, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:18 ICT" name="getcomment" finished-at="2024-08-02T08:05:19 ICT" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getcomment -->
+        <test-method signature="gettodo()[pri:6, instance:com.test.kerja.sqa.api.indodax.EndtoEndGetPost@27ff5d15]" started-at="2024-08-02T08:05:19 ICT" name="gettodo" finished-at="2024-08-02T08:05:19 ICT" duration-ms="563" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- gettodo -->
-      </class> <!-- com.test.kerja.sqa.api.indodax.UserGet -->
+      </class> <!-- com.test.kerja.sqa.api.indodax.EndtoEndGetPost -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -26,9 +26,11 @@ public class UserGet {
 		baseUri="https://gorest.co.in";
 	}
 
-	@Test
+	@Test(priority = 0)
 	public void getalluserbyid() {
-		String path="/public/v2/users/";
+		String path="/public/v2/users/"+getparamuserid;
+		String fixpath=path;
+		System.out.println(fixpath);
 		 Response response =given()
 		.auth().oauth2(token)
 		.header("Accept","application/json")
@@ -42,7 +44,7 @@ public class UserGet {
 //        ValidatableResponse validateResponseid=response.then().j;
        
 	}
-	@Test
+	@Test(priority = 1)
 	public void getpostcontent() {
 		String path="/public/v2/posts";
 		 Response response =given()
@@ -58,7 +60,7 @@ public class UserGet {
 	        ValidatableResponse validateResponse=response.then().statusCode(200).log().all();
 	       
 	}
-	@Test
+	@Test(priority = 1)
 	public void getcomment() {
 		String path="/public/v2/comments";
 		Response response =given()
